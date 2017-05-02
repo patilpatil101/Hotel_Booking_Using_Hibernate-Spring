@@ -1,0 +1,192 @@
+
+html {
+          background: url('/home/sunbeam/LIVEWORK/HotelBooking/img/b.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        body {
+          font: 300 14px/18px Roboto;
+        }
+
+        .muck-up {
+          width: 658px;
+          height: 100%;
+					margin-top: 12px;
+          /*overflow: hidden;*/
+          position: relative;
+          /*background: url('/home/sunbeam/LIVEWORK/HotelBooking/img/bg.jpg');*/
+        }
+
+        .col-sm-4 p{
+         position: absolute;
+         margin: 70px 0px 10px 120px;
+        }
+
+        .col-sm-2 p{
+          margin-top: 50px;
+        }
+        .col-sm-8{
+         background-image: url('/home/sunbeam/LIVEWORK/HotelBooking/img/b.jpg')
+        }
+        .overlay {
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.6);
+        }
+
+        .content {
+          position: relative;
+          /*z-index: 10;*/
+        }
+
+        .logo {
+          margin-top: 60px;
+          margin-left: 40%;
+        }
+
+        .logo a {
+          height: 140px;
+          width: 140px;
+          display: block;
+          background-color: rgb(0, 231, 119);
+          z-index: 1;
+          border-radius: 32%;
+          text-align: center;
+          line-height: 140px;
+          font-size: 90px;
+          color: rgb(255, 255, 255);
+          transform: rotate(45deg);
+          top: 123px;
+          left: 36%;
+        }
+
+        .logo span {
+          transform: rotate(-45deg);
+          display: inline-block;
+        }
+
+        .header {
+          text-align: center;
+          color: #fff;
+        }
+
+        .logo .line {
+					margin-top: 40px;
+					margin-left:45px; 
+          max-width: 50px;
+          border: 1px solid #00E777;
+					
+        }
+
+        .header h4 {
+          font-size: 48px;
+          /*margin-bottom: 34px;*/
+        }
+
+        .header h4 span {
+          color: #00e777;
+        }
+
+        .header p {
+          font-size: 18px;
+        }
+
+        .login {
+          padding: 0 10%;
+          margin-top: 50px;
+        }
+
+        .btn {
+          cursor: pointer;
+          display: block;
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 16px 12px;
+          border-radius: 4px;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          background-image: none;
+          line-height: 1.42857143;
+          border: 1px solid transparent;
+        }
+
+        a.btn.connect-fb,
+        a.btn.connect-tw {
+          width: 47%;
+          float: left;
+          text-align: left;
+          font-size: 16px;
+        }
+
+        a.btn.connect-fb i,
+        a.btn.connect-tw i {
+          font-size: 43px;
+          display: block;
+          float: left;
+          margin-right: 20px;
+        }
+
+        a.btn.connect-fb span,
+        a.btn.connect-tw span {
+          display: block;
+          text-align: left;
+        }
+        .jumbotron {
+            margin-top: 10px;
+            background-position: 0% 0%;
+             background: rgba(0, 0, 0, 0.6);
+            height: 750px;
+  
+        }
+       
+       body {
+                background-color: gray;
+            }
+
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                border-color: gray;
+            }
+
+            a {
+                color: #166eb3;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            thead > tr:nth-child(odd) {
+                background-color: beige;
+            }
+
+            thead > tr:hover {
+                background-color: gray;
+            }
+
+            thead > tr:nth-child(even) {
+                background-color: #eec050;
+            }
+
+           
+  }
+
+	

@@ -1,0 +1,30 @@
+ body {
+                background-color: gray;
+            }
+
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                border-color: gray;
+            }
+
+            a {
+                color: #166eb3;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            thead > tr:nth-child(odd) {
+                background-color: beige;
+            }
+
+            thead > tr:hover {
+                background-color: gray;
+            }
+
+            thead > tr:nth-child(even) {
+                background-color: #eec050;
+            }

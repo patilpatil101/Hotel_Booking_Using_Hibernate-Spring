@@ -1,0 +1,224 @@
+
+html {
+          background: url('/home/sunbeam/LIVEWORK/HotelBooking/img/b.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        body {
+          font: 300 14px/18px Roboto;
+        }
+
+        .muck-up {
+          width: 100%;
+          height: 450px;
+          margin: 5em auto;
+					margin-top: 12px;
+          overflow: hidden;
+          position: absolute;
+          background: url('/home/sunbeam/LIVEWORK/HotelBooking/img/bg.jpg');
+        }
+
+        .col-sm-4 p{
+         position: absolute;
+         margin: 70px 0px 10px 120px;
+        }
+
+        .col-sm-2 p{
+          margin-top: 50px;
+        }
+        .overlay {
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.6);
+        }
+
+        .content {
+          position: relative;
+          z-index: 10;
+        }
+
+        .logo {
+          margin-top: 60px;
+          margin-left: 45%;
+        }
+
+        .logo a {
+          height: 140px;
+          width: 140px;
+          display: block;
+          background-color: rgb(0, 231, 119);
+          z-index: 1;
+          border-radius: 32%;
+          text-align: center;
+          line-height: 140px;
+          font-size: 90px;
+          color: rgb(255, 255, 255);
+          transform: rotate(45deg);
+          top: 123px;
+          left: 36%;
+        }
+
+        .logo span {
+          transform: rotate(-45deg);
+          display: inline-block;
+        }
+
+        .header {
+          text-align: center;
+          color: #fff;
+        }
+
+        .logo .line {
+					margin-top: 40px;
+					margin-left:45px; 
+          max-width: 50px;
+          border: 1px solid #00E777;
+					
+        }
+
+        .header h4 {
+          font-size: 48px;
+          /*margin-bottom: 34px;*/
+        }
+
+        .header h4 span {
+          color: #00e777;
+        }
+
+        .header p {
+          font-size: 18px;
+        }
+
+        .login {
+          padding: 0 10%;
+          margin-top: 50px;
+        }
+
+        .btn {
+          cursor: pointer;
+          display: block;
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: 400;
+          padding: 16px 12px;
+          border-radius: 4px;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          background-image: none;
+          line-height: 1.42857143;
+          border: 1px solid transparent;
+        }
+
+        .sign-in {
+					margin-left: 300px;
+          color: #fff;
+          font-size: 18px;
+          background: #586A74;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+					width: 450px;
+          border-color: #4B5961;
+        }
+
+        .sign-up {
+					margin-left: 300px;
+					width: 450px;
+          color: #fff;
+          font-size: 18px;
+          background: #00E777;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          border-color: #0BDA76;
+        }
+
+        a.btn.connect-fb,
+        a.btn.connect-tw {
+          width: 47%; 
+          text-align: left;
+          font-size: 16px;
+        }
+
+        a.btn.connect-fb i,
+        a.btn.connect-tw i {
+          font-size: 43px;
+          display: block;
+          margin-right: 20px;
+        }
+
+        a.btn.connect-fb span,
+        a.btn.connect-tw span {
+          display: block;
+          text-align: left;
+        }
+        
+        
+        .jumbotron {
+            margin-bottom: 0px;
+            height: 500px;
+            background-position: 0% 25%;
+            background-size: cover;
+  
+  
+        }
+
+	@import "bourbon";
+
+body {
+	background: #eee !important;	
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
